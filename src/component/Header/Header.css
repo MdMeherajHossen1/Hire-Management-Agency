@@ -1,0 +1,9 @@
+
+
+/* header intro section */
+.header-intro{
+    background-image: url('../../footer.jpg');
+    background-position: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
