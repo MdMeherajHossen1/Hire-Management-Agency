@@ -2,6 +2,7 @@ import React from 'react';
 import './Person.css'
 const Person = (props) => {
     const { name, age, salary, designation, country, img } = props.person;
+
     return (
         <div>
             <div class="col">
@@ -13,6 +14,7 @@ const Person = (props) => {
                         <h6>Age: {age}</h6>
                         <h6><small>Country: {country}</small></h6>
                         <h6>Salary: {salary}</h6>
+                        <button className="btn btn-success" onClick={() => props.handleHirePerson(props.person)}> <i class="fab fa-hire-a-helper"></i> Hire Now</button>
                     </div>
                 </div>
             </div>

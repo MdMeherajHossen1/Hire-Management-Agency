@@ -93,14 +93,14 @@
         "id": "11",
         "name": "Adam muller",
         "age": "30",
-        "designation": "Executive Assistant",
+        "designation": "Exe. Assistant",
         "country": "Denmark",
         "salary": "45000",
         "img": "https://randomuser.me/api/portraits/med/men/46.jpg"
     },
     {
         "id": "12",
-        "name": "Ayshi takia",
+        "name": "Aysha takia",
         "age": "28",
         "designation": "Project Manager",
         "country": "Turkey",

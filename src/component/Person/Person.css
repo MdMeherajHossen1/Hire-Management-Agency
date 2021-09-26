@@ -8,8 +8,19 @@
 }
 
 
+
 .person-bg{
     background-color: white  !important;
     box-shadow: 3px 3px 6px lightgray;
  
+}
+
+/* this style for person details */
+.icon{
+   color: blue;
+}
+
+.small-image{
+    border-radius: 50%;
+    width: 30%;
 }
