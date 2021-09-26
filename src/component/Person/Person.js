@@ -13,8 +13,9 @@ const Person = (props) => {
                         <h6> Designation:  {designation}</h6>
                         <h6>Age: {age}</h6>
                         <h6><small>Country: {country}</small></h6>
-                        <h6>Salary: {salary}</h6>
-                        <button className="btn btn-success" onClick={() => props.handleHirePerson(props.person)}> <i class="fab fa-hire-a-helper"></i> Hire Now</button>
+                        <h6>Salary: $ {salary}</h6>
+                        <button className="btn btn-success me-2 px-3" onClick={() => props.handleHirePerson(props.person)}> <i class="fab fa-hire-a-helper"></i> Hire Now</button>
+                        <button className="btn btn-secondary px-4">Details</button>
                     </div>
                 </div>
             </div>

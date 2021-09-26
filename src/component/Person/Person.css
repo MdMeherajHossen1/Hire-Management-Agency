@@ -12,6 +12,7 @@
 .person-bg{
     background-color: white  !important;
     box-shadow: 3px 3px 6px lightgray;
+    border-radius: 12px;
  
 }
 

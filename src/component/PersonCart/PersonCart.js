@@ -11,9 +11,10 @@ const PersonCart = (props) => {
 
     return (
         <div className="sticky-top ms-2">
-            <div className="person-bg p-3">
-                <h5>Total Persons:  {personCart.length}</h5>
-                <h6>Total Salaries:$  {totalSalaries}</h6>
+            <div className="person-bg p-3 text-center">
+                <h5>Your Management Team</h5>
+                <h6>Total Persons:  {personCart.length}</h6>
+                <h6>Total Salaries: $  {totalSalaries}</h6>
             </div>
             {/* person details component */}
             <div className="mt-3">

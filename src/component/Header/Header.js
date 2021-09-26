@@ -37,7 +37,7 @@ const Header = () => {
 
             {/* Header title */}
             <section className="header-intro p-2 text-center">
-                <h3 className="p-0 m-0">Make a Great Management Team</h3>
+                <h3 className="p-0 m-0">Make a Great Management Team For Your Company</h3>
                 <p className=" p-0 m-0"> <small>The key of success of a company is simply that A great management.</small></p>
                 <h4 className=" p-0 m-0"><small>Total Budget: 10 Millions</small></h4>
             </section>
