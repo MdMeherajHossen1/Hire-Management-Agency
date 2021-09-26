@@ -15,7 +15,7 @@ const Person = (props) => {
                         <h6><small>Country: {country}</small></h6>
                         <h6>Salary: $ {salary}</h6>
                         <button className="btn btn-success me-2 px-3" onClick={() => props.handleHirePerson(props.person)}> <i class="fab fa-hire-a-helper"></i> Hire Now</button>
-                        <button className="btn btn-secondary px-4">Details</button>
+                        <button className="btn btn-outline-primary px-4">Details</button>
                     </div>
                 </div>
             </div>
